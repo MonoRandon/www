@@ -1,0 +1,49 @@
+body {
+  
+    object-fit: cover;
+   image-rendering: optimizeQuality;
+   background-size: cover;
+   background-image: url(g\ copy.gif);
+   background-repeat: no-repeat;
+
+}
+
+
+.nav{
+   position: fixed;
+   
+}
+
+.bebe{
+   text-decoration: none;
+   color: chartreuse;
+}
+
+
+#img-1{
+   clip-path: circle(100px);
+}
+
+.button, .option-button{
+   border-radius: 25px;
+   background-color: #af704c; /* Verde */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 8px;
+   transition: background-color 0.3s;
+
+
+}
+
+
+button:hover{
+   background-color: rgb(16, 212, 49);
+}
+
